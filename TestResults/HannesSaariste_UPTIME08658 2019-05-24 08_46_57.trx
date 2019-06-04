@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7c62b378-132f-4f9e-b259-90f7d45064ca" name="HannesSaariste@UPTIME08658 2019-05-24 08:46:57" runUser="AzureAD\HannesSaariste" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="82f58698-f45c-4a91-a385-93496e26ddf6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment runDeploymentRoot="HannesSaariste_UPTIME08658 2019-05-24 08_46_57">
+      <DeploymentItem filename="C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll" />
+    </Deployment>
+    <Execution hostProcessPlatform="MSIL">
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Properties>
+      <Property name="TestSettingsUIType" value="UnitTest" />
+    </Properties>
+  </TestSettings>
+  <Times creation="2019-05-24T08:46:57.5137014+03:00" queuing="2019-05-24T08:46:57.7777318+03:00" start="2019-05-24T08:46:57.8096917+03:00" finish="2019-05-24T08:47:39.6724736+03:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="1" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <CodedWebTest name="AripaevTeemaveebide_ArtikliteVanuseTest" storage="c:\users\hannessaariste\source\repos\ap_article_web_test\ap_article_web_test\bin\debug\ap_article_web_test.dll" id="89672b2d-938f-bee8-5e0a-bda5f3206e93">
+      <Execution id="9cff83ac-b3fd-4cfe-b1dc-798c90fefa3a" />
+      <Properties>
+        <Property>
+          <Key>__Internal_IteratorTypeName__</Key>
+          <Value>AP_Article_Web_Test.AripaevTeemaveebide_ArtikliteVanuseTest+&lt;GetRequestEnumerator&gt;d__1</Value>
+        </Property>
+      </Properties>
+      <WebTestClass assembly="AP_Article_Web_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="AP_Article_Web_Test" class="AripaevTeemaveebide_ArtikliteVanuseTest" />
+    </CodedWebTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry isTransparent="false" testId="89672b2d-938f-bee8-5e0a-bda5f3206e93" executionId="9cff83ac-b3fd-4cfe-b1dc-798c90fefa3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <WebTestResult executionId="9cff83ac-b3fd-4cfe-b1dc-798c90fefa3a" testId="89672b2d-938f-bee8-5e0a-bda5f3206e93" testName="AripaevTeemaveebide_ArtikliteVanuseTest" computerName="UPTIME08658" duration="00:00:31.1226623" startTime="2019-05-24T08:46:57.9073858+03:00" endTime="2019-05-24T08:47:39.6365710+03:00" testType="37e36796-fb51-4610-8d5c-e00ceaa68b9f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9cff83ac-b3fd-4cfe-b1dc-798c90fefa3a">
+      <Output>
+        <ErrorInfo>
+          <Message>Exception occurred: Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[AP_Article_Web_Test.Article]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List&lt;T&gt;) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'lists', line 1, position 9.</Message>
+          <StackTrace>   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at AP_Article_Web_Test.AripaevTeemaveebide_ArtikliteVanuseTest.&lt;GetRequestEnumerator&gt;d__1.MoveNext() in C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\AP_Article_Web_Test\AripaevTeemaveebide_ArtikliteVanuseTest.cs:line 749
+   at Microsoft.VisualStudio.TestTools.WebStress.WebTestCaseVariation.ExecuteNextTopLevelRequest()</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="AripaevTeemaveebide_ArtikliteVanuseTest.webtestResult" />
+      </ResultFiles>
+      <TestSettings name="Local" id="82f58698-f45c-4a91-a385-93496e26ddf6">
+        <Description>These are default test settings for a local test run.</Description>
+        <Deployment runDeploymentRoot="HannesSaariste_UPTIME08658 2019-05-24 08_46_57">
+          <DeploymentItem filename="C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll" />
+        </Deployment>
+        <Execution hostProcessPlatform="MSIL">
+          <TestTypeSpecific>
+            <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+              <Browser name="Internet Explorer 9.0" MaxConnections="6">
+                <Headers>
+                  <Header name="User-Agent" value="Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)" />
+                  <Header name="Accept" value="*/*" />
+                  <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+                  <Header name="Accept-Encoding" value="GZIP" />
+                </Headers>
+              </Browser>
+            </WebTestRunConfiguration>
+          </TestTypeSpecific>
+          <AgentRule name="Execution Agents">
+          </AgentRule>
+        </Execution>
+        <Properties>
+          <Property name="TestSettingsUIType" value="UnitTest" />
+        </Properties>
+      </TestSettings>
+      <WebTestResultFilePath>HannesSaariste_UPTIME08658 2019-05-24 08_46_57\In\9cff83ac-b3fd-4cfe-b1dc-798c90fefa3a\AripaevTeemaveebide_ArtikliteVanuseTest.webtestResult</WebTestResultFilePath>
+    </WebTestResult>
+  </Results>
+</TestRun>

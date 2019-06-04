@@ -1,0 +1,20 @@
+C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\AP_Article_Web_Test\bin\Debug\ITuudisedTest.webtest
+C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\AP_Article_Web_Test\bin\Debug\AripaevTeemaveebideTest.webtest
+C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\AP_Article_Web_Test\bin\Debug\TestingTest.webtest
+C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\AP_Article_Web_Test\bin\Debug\AripaevTeemaveebideTest_ArtikliteVanuseWebtest.webtest
+C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\AP_Article_Web_Test\bin\Debug\AripaevTeemaveebideTest - WorksWOremoved.webtest
+C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\AP_Article_Web_Test\bin\Debug\AAArticleViewAndLoginTest Wpopulaarsedtest.webtest
+C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\AP_Article_Web_Test\bin\Debug\ArticleViewAndLoginTest.webtest
+C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\AP_Article_Web_Test\bin\Debug\LoadTest1.loadtest
+C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\AP_Article_Web_Test\bin\Debug\LoadTest2.loadtest
+C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\AP_Article_Web_Test\bin\Debug\LoadTest3.loadtest
+C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\AP_Article_Web_Test\bin\Debug\AP_Article_Web_Test.dll
+C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\AP_Article_Web_Test\bin\Debug\AP_Article_Web_Test.pdb
+C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\AP_Article_Web_Test\bin\Debug\Microsoft.VisualStudio.QualityTools.WebTestFramework.dll
+C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\AP_Article_Web_Test\bin\Debug\Newtonsoft.Json.dll
+C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\AP_Article_Web_Test\bin\Debug\Newtonsoft.Json.xml
+C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\AP_Article_Web_Test\obj\Debug\AP_Article_Web_Test.csprojAssemblyReference.cache
+C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\AP_Article_Web_Test\obj\Debug\AP_Article_Web_Test.csproj.CoreCompileInputs.cache
+C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\AP_Article_Web_Test\obj\Debug\AP_Article_Web_Test.csproj.CopyComplete
+C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\AP_Article_Web_Test\obj\Debug\AP_Article_Web_Test.dll
+C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\AP_Article_Web_Test\obj\Debug\AP_Article_Web_Test.pdb

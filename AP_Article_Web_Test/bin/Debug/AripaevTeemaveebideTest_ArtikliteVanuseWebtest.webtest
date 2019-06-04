@@ -1,0 +1,735 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="AripaevTeemaveebideTest_ArtikliteVanuseWebtest" Id="ee2bb94f-72ae-415e-8171-5346b4d91de9" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.a4951017-b0f6-4825-ba55-f89d3e87ce66.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="29a1250c-6d60-4323-aef7-4789830b2350" Version="1.1" Url="https://www.raamatupidaja.ee/uudised/2019/05/20/moodikute-sarav-liider-pohjataht" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <ValidationRules>
+        <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
+          <RuleParameters>
+            <RuleParameter Name="FindText" Value="VORMISTA TELLIMUS KOHE JA SAAD:" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="PassIfTextFound" Value="True" />
+          </RuleParameters>
+        </ValidationRule>
+      </ValidationRules>
+    </Request>
+    <Request Method="GET" Guid="459be802-2686-4e45-968d-df2f3bf6619f" Version="1.1" Url="https://imgsrv.kuldnebors.ee/dynamic/flickers8/raamatupidaja32080.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="OPTIONS" Guid="22365a2f-eb86-4826-8812-7f374f74d110" Version="1.1" Url="https://listapi.aripaev.ee/v1/category" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="limit" Value="15" RecordedValue="15" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="OPTIONS" Guid="ac3d5ac4-4f2b-4933-aaff-473510a25df7" Version="1.1" Url="https://listapi.aripaev.ee/v1/category" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="limit" Value="15" RecordedValue="15" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="OPTIONS" Guid="b841e325-1427-44e9-b210-5d4c16c1cfa5" Version="1.1" Url="https://listapi.aripaev.ee/v1/category/seminar" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="limit" Value="15" RecordedValue="15" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="OPTIONS" Guid="b6b3eb96-57fd-41fa-ac49-1e8bbb392f08" Version="1.1" Url="https://listapi.aripaev.ee/v1/tag/project/tarkvara" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="limit" Value="6" RecordedValue="6" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="OPTIONS" Guid="3a8ca812-7423-473d-84f2-1977c93959ee" Version="1.1" Url="https://listapi.aripaev.ee/v1/category/jobs" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="limit" Value="15" RecordedValue="15" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="OPTIONS" Guid="34e3aa20-2e41-4620-8de7-d7800764f40e" Version="1.1" Url="https://listapi.aripaev.ee/v1/category/magazine" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="limit" Value="15" RecordedValue="15" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="OPTIONS" Guid="6cc274db-447a-41ee-b134-da2ec22d05d6" Version="1.1" Url="https://listapi.aripaev.ee/v1/category" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="limit" Value="15" RecordedValue="15" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="OPTIONS" Guid="ce152138-b61e-4c35-8dce-85fc2df2b8e5" Version="1.1" Url="https://eventsapi.aripaev.ee/v1/events" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="type" Value="event" RecordedValue="event" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="past_events" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="limit" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="OPTIONS" Guid="2b7e4599-c730-4f11-8ed6-989851cb4bbc" Version="1.1" Url="https://listapi.aripaev.ee/v1/category/cm" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="limit" Value="15" RecordedValue="15" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="OPTIONS" Guid="504b4e1a-c265-4849-b750-605d58d48e92" Version="1.1" Url="https://listapi.aripaev.ee/v1/most-viewed" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="period" Value="1_week" RecordedValue="1_week" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="OPTIONS" Guid="7b81157c-53ce-46e3-8291-d02c354a2756" Version="1.1" Url="https://listapi.aripaev.ee/v1/sections" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="limit" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="3ec9d1fc-658b-49a9-b581-5de6772e0141" Version="1.1" Url="https://connect.facebook.net/signals/config/444381375738055" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.raamatupidaja.ee/uudised/2019/05/20/moodikute-sarav-liider-pohjataht" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="v" Value="2.8.50" RecordedValue="2.8.50" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="r" Value="stable" RecordedValue="stable" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="ad81681f-5f29-42c1-83c2-9db37af1db2d" Version="1.1" Url="https://aripaee.adocean.pl/files/x/nnc/notsovx/rphobtnmnd/index.html" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.raamatupidaja.ee/uudised/2019/05/20/moodikute-sarav-liider-pohjataht" />
+      </Headers>
+    </Request>
+    <Request Method="POST" Guid="9d80d55c-3eed-49c3-bd42-0686d4ad059f" Version="1.1" Url="https://marketingapi.aripaev.ee/api/campaign" ThinkTime="4" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.raamatupidaja.ee/uudised/2019/05/20/moodikute-sarav-liider-pohjataht" />
+      </Headers>
+      <StringHttpBody ContentType="application/json" InsertByteOrderMark="False">ewAiAHUAcwBlAHIASQBkACIAOgAiAHcAcgBNAFkAcgA3AFYASABXAFUAZwBYAG0AbQA5AEQAKwA3AGEAOQBOAHoASwBJAEQATgBRAD0AIgAsACIAaQBzAEwAbwBnAGcAZQBkAEkAbgAiADoAZgBhAGwAcwBlACwAIgBpAHMAQQB1AHQAaABvAHIAaQB6AGUAZAAiADoAZgBhAGwAcwBlACwAIgBpAHMATABvAGMAawBlAGQAIgA6AHQAcgB1AGUALAAiAGkAbgBBAHIAdABpAGMAbABlACIAOgB0AHIAdQBlACwAIgBhAHIAdABpAGMAbABlAFUAdQBpAGQAIgA6ACIAYQBiADUAMQBjADAANgBjAC0AOQAwADMANAAtADQAYwA1ADEALQBiADQAOAA3AC0AZQAwAGQAYQA4ADAAMgBkAGUAMAAzAGEAIgB9AA==</StringHttpBody>
+    </Request>
+    <Request Method="OPTIONS" Guid="2f241297-4db2-4f32-9f6c-6bb551c58180" Version="1.1" Url="https://accessapi.aripaev.ee/v1/ip/raamatupidaja" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="ccd31156-9e2b-47d5-b2ac-ce41aae10a04" Version="1.1" Url="https://accessapi.aripaev.ee/v1/ip/raamatupidaja" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="content-type" Value="application/json" />
+        <Header Name="Referer" Value="https://www.raamatupidaja.ee/uudised/2019/05/20/moodikute-sarav-liider-pohjataht" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="38f3cbf0-b196-4c44-ae3d-c09f00f4b5f3" Version="1.1" Url="https://login.aripaev.ee/OAuth/Authorize" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://login.aripaev.ee/Account/Login?ReturnUrl=%2fOAuth%2fAuthorize%3fclient_id%3draamatupidaja%26response_type%3dcode%26scope%3d%252FUserDataService%252Fjson%252FProfile%2520%252FUserDataService%252Fjson%252FPermissions%2520%252FUserDataService%252Fjson%252FOrders%26redirect_uri%3dhttps%253A%252F%252Faccessapi.aripaev.ee%252Fv1%252Flogin%252Fraamatupidaja%253Fredirect_uri%253Dhttps%25253A%25252F%25252Fwww.raamatupidaja.ee%25252Fuudised%25252F2019%25252F05%25252F20%25252Fmoodikute-sarav-liider-pohjataht&amp;client_id=raamatupidaja&amp;response_type=code&amp;scope=%2FUserDataService%2Fjson%2FProfile%20%2FUserDataService%2Fjson%2FPermissions%20%2FUserDataService%2Fjson%2FOrders&amp;redirect_uri=https%3A%2F%2Faccessapi.aripaev.ee%2Fv1%2Flogin%2Fraamatupidaja%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.raamatupidaja.ee%252Fuudised%252F2019%252F05%252F20%252Fmoodikute-sarav-liider-pohjataht" ReportingName="" IgnoreHttpStatusCode="False">
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam1.RememberMe" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="RememberMe" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+            <RuleParameter Name="Index" Value="0" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam2.RememberMe" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="RememberMe" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+            <RuleParameter Name="Index" Value="0" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="client_id" Value="raamatupidaja" RecordedValue="raamatupidaja" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="response_type" Value="code" RecordedValue="code" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="scope" Value="%2FUserDataService%2Fjson%2FProfile%20%2FUserDataService%2Fjson%2FPermissions%20%2FUserDataService%2Fjson%2FOrders" RecordedValue="%2FUserDataService%2Fjson%2FProfile%20%2FUserDataService%2Fjson%2FPermissions%20%2FUserDataService%2Fjson%2FOrders" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="redirect_uri" Value="https%3A%2F%2Faccessapi.aripaev.ee%2Fv1%2Flogin%2Fraamatupidaja%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.raamatupidaja.ee%252Fuudised%252F2019%252F05%252F20%252Fmoodikute-sarav-liider-pohjataht" RecordedValue="https%3A%2F%2Faccessapi.aripaev.ee%2Fv1%2Flogin%2Fraamatupidaja%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.raamatupidaja.ee%252Fuudised%252F2019%252F05%252F20%252Fmoodikute-sarav-liider-pohjataht" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="ce231a9a-c84d-46ce-8816-7d436385824e" Version="1.1" Url="https://login.aripaev.ee/Account/Login" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://login.aripaev.ee/global-login?continueUrl=%2FOAuth%2FAuthorize%3Fclient_id%3Draamatupidaja%26response_type%3Dcode%26scope%3D%252FUserDataService%252Fjson%252FProfile%2520%252FUserDataService%252Fjson%252FPermissions%2520%252FUserDataService%252Fjson%252FOrders%26redirect_uri%3Dhttps%253A%252F%252Faccessapi.aripaev.ee%252Fv1%252Flogin%252Fraamatupidaja%253Fredirect_uri%253Dhttps%25253A%25252F%25252Fwww.raamatupidaja.ee%25252Fuudised%25252F2019%25252F05%25252F20%25252Fmoodikute-sarav-liider-pohjataht" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://login.aripaev.ee/Account/Login?ReturnUrl=%2fOAuth%2fAuthorize%3fclient_id%3draamatupidaja%26response_type%3dcode%26scope%3d%252FUserDataService%252Fjson%252FProfile%2520%252FUserDataService%252Fjson%252FPermissions%2520%252FUserDataService%252Fjson%252FOrders%26redirect_uri%3dhttps%253A%252F%252Faccessapi.aripaev.ee%252Fv1%252Flogin%252Fraamatupidaja%253Fredirect_uri%253Dhttps%25253A%25252F%25252Fwww.raamatupidaja.ee%25252Fuudised%25252F2019%25252F05%25252F20%25252Fmoodikute-sarav-liider-pohjataht&amp;client_id=raamatupidaja&amp;response_type=code&amp;scope=%2FUserDataService%2Fjson%2FProfile%20%2FUserDataService%2Fjson%2FPermissions%20%2FUserDataService%2Fjson%2FOrders&amp;redirect_uri=https%3A%2F%2Faccessapi.aripaev.ee%2Fv1%2Flogin%2Fraamatupidaja%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.raamatupidaja.ee%252Fuudised%252F2019%252F05%252F20%252Fmoodikute-sarav-liider-pohjataht" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam175.ssoId" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?ssoId=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam182.ssoId" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?ssoId=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam195.client_id" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?client_id=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam196.response_type" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;response_type=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam197.scope" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;scope=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam198.redirect_uri" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;redirect_uri=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="ReturnUrl" Value="%2fOAuth%2fAuthorize%3fclient_id%3draamatupidaja%26response_type%3dcode%26scope%3d%252FUserDataService%252Fjson%252FProfile%2520%252FUserDataService%252Fjson%252FPermissions%2520%252FUserDataService%252Fjson%252FOrders%26redirect_uri%3dhttps%253A%252F%252Faccessapi.aripaev.ee%252Fv1%252Flogin%252Fraamatupidaja%253Fredirect_uri%253Dhttps%25253A%25252F%25252Fwww.raamatupidaja.ee%25252Fuudised%25252F2019%25252F05%25252F20%25252Fmoodikute-sarav-liider-pohjataht" RecordedValue="%2fOAuth%2fAuthorize%3fclient_id%3draamatupidaja%26response_type%3dcode%26scope%3d%252FUserDataService%252Fjson%252FProfile%2520%252FUserDataService%252Fjson%252FPermissions%2520%252FUserDataService%252Fjson%252FOrders%26redirect_uri%3dhttps%253A%252F%252Faccessapi.aripaev.ee%252Fv1%252Flogin%252Fraamatupidaja%253Fredirect_uri%253Dhttps%25253A%25252F%25252Fwww.raamatupidaja.ee%25252Fuudised%25252F2019%25252F05%25252F20%25252Fmoodikute-sarav-liider-pohjataht" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="client_id" Value="raamatupidaja" RecordedValue="raamatupidaja" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="response_type" Value="code" RecordedValue="code" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="scope" Value="%2FUserDataService%2Fjson%2FProfile%20%2FUserDataService%2Fjson%2FPermissions%20%2FUserDataService%2Fjson%2FOrders" RecordedValue="%2FUserDataService%2Fjson%2FProfile%20%2FUserDataService%2Fjson%2FPermissions%20%2FUserDataService%2Fjson%2FOrders" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="redirect_uri" Value="https%3A%2F%2Faccessapi.aripaev.ee%2Fv1%2Flogin%2Fraamatupidaja%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.raamatupidaja.ee%252Fuudised%252F2019%252F05%252F20%252Fmoodikute-sarav-liider-pohjataht" RecordedValue="https%3A%2F%2Faccessapi.aripaev.ee%2Fv1%2Flogin%2Fraamatupidaja%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.raamatupidaja.ee%252Fuudised%252F2019%252F05%252F20%252Fmoodikute-sarav-liider-pohjataht" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody>
+        <FormPostParameter Name="Email" Value="aratyhista@aripaev.ee" RecordedValue="aratyhista@aripaev.ee" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="password" Value="4utom44ttest" RecordedValue="4utom44ttest" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="RememberMe" Value="true" RecordedValue="true" CorrelationBinding="{{FormPostParam2.RememberMe}}" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="20953026-0dce-4e9a-ac5c-0253f8552235" Version="1.1" Url="https://pood.aripaev.ee/Sso/GlobalLogin" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="Referer" Value="https://login.aripaev.ee/global-login?continueUrl=%2FOAuth%2FAuthorize%3Fclient_id%3Draamatupidaja%26response_type%3Dcode%26scope%3D%252FUserDataService%252Fjson%252FProfile%2520%252FUserDataService%252Fjson%252FPermissions%2520%252FUserDataService%252Fjson%252FOrders%26redirect_uri%3Dhttps%253A%252F%252Faccessapi.aripaev.ee%252Fv1%252Flogin%252Fraamatupidaja%253Fredirect_uri%253Dhttps%25253A%25252F%25252Fwww.raamatupidaja.ee%25252Fuudised%25252F2019%25252F05%25252F20%25252Fmoodikute-sarav-liider-pohjataht" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="ssoId" Value="92310c01-205d-40f7-a62b-a36f03ce84db" RecordedValue="92310c01-205d-40f7-a62b-a36f03ce84db" CorrelationBinding="{{QueryStringParam175.ssoId}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1558612952797" RecordedValue="1558612952797" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="6e2dbca8-118b-4a1c-93c2-91d6b88964b9" Version="1.1" Url="https://infopank.ee/Sso/GlobalLogin" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="Referer" Value="https://login.aripaev.ee/global-login?continueUrl=%2FOAuth%2FAuthorize%3Fclient_id%3Draamatupidaja%26response_type%3Dcode%26scope%3D%252FUserDataService%252Fjson%252FProfile%2520%252FUserDataService%252Fjson%252FPermissions%2520%252FUserDataService%252Fjson%252FOrders%26redirect_uri%3Dhttps%253A%252F%252Faccessapi.aripaev.ee%252Fv1%252Flogin%252Fraamatupidaja%253Fredirect_uri%253Dhttps%25253A%25252F%25252Fwww.raamatupidaja.ee%25252Fuudised%25252F2019%25252F05%25252F20%25252Fmoodikute-sarav-liider-pohjataht" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="ssoId" Value="92310c01-205d-40f7-a62b-a36f03ce84db" RecordedValue="92310c01-205d-40f7-a62b-a36f03ce84db" CorrelationBinding="{{QueryStringParam182.ssoId}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1558612952798" RecordedValue="1558612952798" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="f9149dfb-2f85-45a2-abc2-8524c7000e2d" Version="1.1" Url="https://login.aripaev.ee/OAuth/Authorize" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://www.raamatupidaja.ee/uudised/2019/05/20/moodikute-sarav-liider-pohjataht" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="OPTIONS" Guid="1d55f0e0-86c8-417c-ae62-7e62e284db2d" Version="1.1" Url="https://listapi.aripaev.ee/v1/category" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="limit" Value="15" RecordedValue="15" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="9847c520-d13c-438e-86b7-f1106858fd9a" Version="1.1" Url="https://listapi.aripaev.ee/v1/category" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="limit" Value="15" RecordedValue="15" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="1f8cddb8-4781-48aa-bc3c-fe6d637cb759" Version="1.1" Url="https://listapi.aripaev.ee/v1/category/seminar" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="limit" Value="15" RecordedValue="15" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="bdfdcb7d-d7f0-466f-83e0-d14c828422c9" Version="1.1" Url="https://listapi.aripaev.ee/v1/tag/project/tarkvara" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="limit" Value="6" RecordedValue="6" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="a9405422-621f-4994-859c-c4d208819836" Version="1.1" Url="https://listapi.aripaev.ee/v1/category/jobs" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="limit" Value="15" RecordedValue="15" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="72b87992-99a1-4acf-97fa-b590350ae333" Version="1.1" Url="https://listapi.aripaev.ee/v1/category/magazine" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="limit" Value="15" RecordedValue="15" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="8d4ae8f0-23b1-4444-9519-b53ca57f3da8" Version="1.1" Url="https://listapi.aripaev.ee/v1/category" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="limit" Value="15" RecordedValue="15" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="a18c8928-5e80-48bc-b728-496ee70116b8" Version="1.1" Url="https://eventsapi.aripaev.ee/v1/events" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="type" Value="event" RecordedValue="event" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="past_events" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="limit" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="2d82a0ff-0e45-40db-8987-d97e96aeee1e" Version="1.1" Url="https://listapi.aripaev.ee/v1/category/cm" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="limit" Value="15" RecordedValue="15" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="75a2120f-c883-4bd0-9548-c70ceff1eff6" Version="1.1" Url="https://listapi.aripaev.ee/v1/most-viewed" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="period" Value="1_week" RecordedValue="1_week" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="c6e1b5d9-9933-49cb-905e-a9e1b0d15283" Version="1.1" Url="https://listapi.aripaev.ee/v1/sections" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="limit" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="184a2a23-8b81-47a5-853a-e06e48542003" Version="1.1" Url="https://connect.facebook.net/signals/config/444381375738055" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.raamatupidaja.ee/uudised/2019/05/20/moodikute-sarav-liider-pohjataht" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="v" Value="2.8.50" RecordedValue="2.8.50" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="r" Value="stable" RecordedValue="stable" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="https://login.aripaev.ee/global-login?continueUrl=%2FOAuth%2FAuthorize%3Fclient_id%3Draamatupidaja%26response_type%3Dcode%26scope%3D%252FUserDataService%252Fjson%252FProfile%2520%252FUserDataService%252Fjson%252FPermissions%2520%252FUserDataService%252Fjson%252FOrders%26redirect_uri%3Dhttps%253A%252F%252Faccessapi.aripaev.ee%252Fv1%252Flogin%252Fraamatupidaja%253Fredirect_uri%253Dhttps%25253A%25252F%25252Fwww.raamatupidaja.ee%25252Fuudised%25252F2019%25252F05%25252F20%25252Fmoodikute-sarav-liider-pohjataht" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam3.dl" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ent=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;/&gt;&lt;m" />
+            <RuleParameter Name="Index" Value="8" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam4.if" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ent=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; hre" />
+            <RuleParameter Name="Index" Value="21" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam5.coo" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ent=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; hre" />
+            <RuleParameter Name="Index" Value="21" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam6.dl" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ent=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;/&gt;&lt;m" />
+            <RuleParameter Name="Index" Value="8" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam7.if" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ent=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; hre" />
+            <RuleParameter Name="Index" Value="21" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam8.coo" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ent=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; hre" />
+            <RuleParameter Name="Index" Value="21" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="client_id" Value="raamatupidaja" RecordedValue="raamatupidaja" CorrelationBinding="{{QueryStringParam195.client_id}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="response_type" Value="code" RecordedValue="code" CorrelationBinding="{{QueryStringParam196.response_type}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="scope" Value="%2FUserDataService%2Fjson%2FProfile%20%2FUserDataService%2Fjson%2FPermissions%20%2FUserDataService%2Fjson%2FOrders" RecordedValue="%2FUserDataService%2Fjson%2FProfile%20%2FUserDataService%2Fjson%2FPermissions%20%2FUserDataService%2Fjson%2FOrders" CorrelationBinding="{{QueryStringParam197.scope}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="redirect_uri" Value="https%3A%2F%2Faccessapi.aripaev.ee%2Fv1%2Flogin%2Fraamatupidaja%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.raamatupidaja.ee%252Fuudised%252F2019%252F05%252F20%252Fmoodikute-sarav-liider-pohjataht" RecordedValue="https%3A%2F%2Faccessapi.aripaev.ee%2Fv1%2Flogin%2Fraamatupidaja%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.raamatupidaja.ee%252Fuudised%252F2019%252F05%252F20%252Fmoodikute-sarav-liider-pohjataht" CorrelationBinding="{{QueryStringParam198.redirect_uri}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="929d96ba-0950-496f-903c-88eeec7e92ff" Version="1.1" Url="https://www.raamatupidaja.ee/uudised/2019/05/20/moodikute-sarav-liider-pohjataht" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="OPTIONS" Guid="557352c5-41ae-491b-b452-2b28b78e9bd1" Version="1.1" Url="https://listapi.aripaev.ee/v1/category" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="limit" Value="15" RecordedValue="15" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="de48b63e-9ce7-4ad3-aa24-39ebeb546d3d" Version="1.1" Url="https://listapi.aripaev.ee/v1/category" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="limit" Value="15" RecordedValue="15" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="e6661bb7-8d44-40bc-8ec1-99e60faef3ba" Version="1.1" Url="https://listapi.aripaev.ee/v1/category/seminar" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="limit" Value="15" RecordedValue="15" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="b681535b-7a2c-469c-95c1-f08239b6335d" Version="1.1" Url="https://listapi.aripaev.ee/v1/tag/project/tarkvara" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="limit" Value="6" RecordedValue="6" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="a0ad161c-0ba3-44a2-8243-415ebf25cf3e" Version="1.1" Url="https://listapi.aripaev.ee/v1/category/jobs" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="limit" Value="15" RecordedValue="15" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="5c602e25-2857-4eb6-bf06-0d3c5b97d94e" Version="1.1" Url="https://listapi.aripaev.ee/v1/category/magazine" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="limit" Value="15" RecordedValue="15" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="059100fc-d3b5-47ff-a5e4-dc285a525168" Version="1.1" Url="https://listapi.aripaev.ee/v1/category" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="limit" Value="15" RecordedValue="15" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="c1164db5-754a-4d01-80ef-87f2e7fa9de2" Version="1.1" Url="https://eventsapi.aripaev.ee/v1/events" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="type" Value="event" RecordedValue="event" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="past_events" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="limit" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="f2147396-429c-4ee4-b0e7-cb4e9042f67c" Version="1.1" Url="https://listapi.aripaev.ee/v1/category/cm" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="limit" Value="15" RecordedValue="15" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="3a8e149b-2f03-4932-90af-6959f79ddc02" Version="1.1" Url="https://listapi.aripaev.ee/v1/most-viewed" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="period" Value="1_week" RecordedValue="1_week" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="e3c60a22-b319-433b-921a-bceff72e9161" Version="1.1" Url="https://listapi.aripaev.ee/v1/sections" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="limit" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="4389d039-b043-4c69-a563-b202f15b8ee4" Version="1.1" Url="https://connect.facebook.net/signals/config/444381375738055" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.raamatupidaja.ee/uudised/2019/05/20/moodikute-sarav-liider-pohjataht" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="v" Value="2.8.50" RecordedValue="2.8.50" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="r" Value="stable" RecordedValue="stable" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="https://login.aripaev.ee/global-logout?continueUrl=https%3A%2F%2Fwww.raamatupidaja.ee%2Fuudised%2F2019%2F05%2F20%2Fmoodikute-sarav-liider-pohjataht" />
+      </Headers>
+      <ValidationRules>
+        <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
+          <RuleParameters>
+            <RuleParameter Name="FindText" Value="kaebus, kaubatagastus, kaubapuudus, hilinemine, valeinfo, valearvestus, puudumine." />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="PassIfTextFound" Value="True" />
+          </RuleParameters>
+        </ValidationRule>
+      </ValidationRules>
+    </Request>
+    <Request Method="POST" Guid="261d9f1f-4087-4583-85b9-e0b7a203ddeb" Version="1.1" Url="https://www.facebook.com/tr/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.raamatupidaja.ee/uudised/2019/05/20/moodikute-sarav-liider-pohjataht" />
+      </Headers>
+      <FormPostHttpBody>
+        <FormPostParameter Name="id" Value="444381375738055" RecordedValue="444381375738055" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ev" Value="Microdata" RecordedValue="Microdata" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="dl" Value="https://www.raamatupidaja.ee/uudised/2019/05/20/moodikute-sarav-liider-pohjataht" RecordedValue="https://www.raamatupidaja.ee/uudised/2019/05/20/moodikute-sarav-liider-pohjataht" CorrelationBinding="{{FormPostParam6.dl}}" UrlEncode="True" />
+        <FormPostParameter Name="rl" Value="https://login.aripaev.ee/global-login?continueUrl=%2FOAuth%2FAuthorize%3Fclient_id%3Draamatupidaja%26response_type%3Dcode%26scope%3D%252FUserDataService%252Fjson%252FProfile%2520%252FUserDataService%252Fjson%252FPermissions%2520%252FUserDataService%252Fjson%252FOrders%26redirect_uri%3Dhttps%253A%252F%252Faccessapi.aripaev.ee%252Fv1%252Flogin%252Fraamatupidaja%253Fredirect_uri%253Dhttps%25253A%25252F%25252Fwww.raamatupidaja.ee%25252Fuudised%25252F2019%25252F05%25252F20%25252Fmoodikute-sarav-liider-pohjataht" RecordedValue="https://login.aripaev.ee/global-login?continueUrl=%2FOAuth%2FAuthorize%3Fclient_id%3Draamatupidaja%26response_type%3Dcode%26scope%3D%252FUserDataService%252Fjson%252FProfile%2520%252FUserDataService%252Fjson%252FPermissions%2520%252FUserDataService%252Fjson%252FOrders%26redirect_uri%3Dhttps%253A%252F%252Faccessapi.aripaev.ee%252Fv1%252Flogin%252Fraamatupidaja%253Fredirect_uri%253Dhttps%25253A%25252F%25252Fwww.raamatupidaja.ee%25252Fuudised%25252F2019%25252F05%25252F20%25252Fmoodikute-sarav-liider-pohjataht" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="if" Value="false" RecordedValue="false" CorrelationBinding="{{FormPostParam7.if}}" UrlEncode="True" />
+        <FormPostParameter Name="ts" Value="1558612962693" RecordedValue="1558612962693" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="cd[DataLayer]" Value="[]" RecordedValue="[]" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="cd[Meta]" Value="{&quot;title&quot;:&quot;Mõõdikute särav liider – Põhjatäht&quot;,&quot;meta:description&quot;:&quot;Mõõdikute särav liider – PõhjatähtTavapärane juhtimisaruandlus keskendub finantsaruannetele: kasumiaruandele, bilansile ja rahavoogude aruandele. Finantsaruanded omandavad sisu, kui neid millegagi võrrelda. Mõõdikuid kasutatakse tagasiside saamiseks, et võrrelda saadud tulemust eesmärgiga..&quot;}" RecordedValue="{&quot;title&quot;:&quot;Mõõdikute särav liider – Põhjatäht&quot;,&quot;meta:description&quot;:&quot;Mõõdikute särav liider – PõhjatähtTavapärane juhtimisaruandlus keskendub finantsaruannetele: kasumiaruandele, bilansile ja rahavoogude aruandele. Finantsaruanded omandavad sisu, kui neid millegagi võrrelda. Mõõdikuid kasutatakse tagasiside saamiseks, et võrrelda saadud tulemust eesmärgiga..&quot;}" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="cd[OpenGraph]" Value="{&quot;og:site_name&quot;:&quot;Äripäev&quot;,&quot;og:title&quot;:&quot;Mõõdikute särav liider – Põhjatäht&quot;,&quot;og:url&quot;:&quot;https://www.raamatupidaja.ee/uudised/2019/05/20/moodikute-sarav-liider-pohjataht&quot;,&quot;og:description&quot;:&quot;Tavapärane juhtimisaruandlus keskendub finantsaruannetele: kasumiaruandele, bilansile ja rahavoogude aruandele. Finantsaruanded omandavad sisu, kui neid millegagi võrrelda. Mõõdikuid kasutatakse tagasiside saamiseks, et võrrelda saadud tulemust eesmärgiga.&quot;,&quot;og:image&quot;:&quot;https://static-img.aripaev.ee/?type=preview&amp;uuid=8612b3fe-9256-5d3f-b5ef-54fc8b6173b1&amp;width=1200&amp;q=85&quot;,&quot;og:image:width&quot;:&quot;1200&quot;,&quot;og:type&quot;:&quot;article&quot;,&quot;og:locale&quot;:&quot;et_EE&quot;}" RecordedValue="{&quot;og:site_name&quot;:&quot;Äripäev&quot;,&quot;og:title&quot;:&quot;Mõõdikute särav liider – Põhjatäht&quot;,&quot;og:url&quot;:&quot;https://www.raamatupidaja.ee/uudised/2019/05/20/moodikute-sarav-liider-pohjataht&quot;,&quot;og:description&quot;:&quot;Tavapärane juhtimisaruandlus keskendub finantsaruannetele: kasumiaruandele, bilansile ja rahavoogude aruandele. Finantsaruanded omandavad sisu, kui neid millegagi võrrelda. Mõõdikuid kasutatakse tagasiside saamiseks, et võrrelda saadud tulemust eesmärgiga.&quot;,&quot;og:image&quot;:&quot;https://static-img.aripaev.ee/?type=preview&amp;uuid=8612b3fe-9256-5d3f-b5ef-54fc8b6173b1&amp;width=1200&amp;q=85&quot;,&quot;og:image:width&quot;:&quot;1200&quot;,&quot;og:type&quot;:&quot;article&quot;,&quot;og:locale&quot;:&quot;et_EE&quot;}" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="cd[Schema.org]" Value="[]" RecordedValue="[]" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="cd[JSON-LD]" Value="[]" RecordedValue="[]" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="sw" Value="1920" RecordedValue="1920" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="sh" Value="1080" RecordedValue="1080" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="v" Value="2.8.50" RecordedValue="2.8.50" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="r" Value="stable" RecordedValue="stable" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ec" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="o" Value="14" RecordedValue="14" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="fbp" Value="fb.1.1558611821278.1896049725" RecordedValue="fb.1.1558611821278.1896049725" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="it" Value="1558612961841" RecordedValue="1558612961841" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="coo" Value="false" RecordedValue="false" CorrelationBinding="{{FormPostParam8.coo}}" UrlEncode="True" />
+        <FormPostParameter Name="es" Value="automatic" RecordedValue="automatic" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="rqm" Value="formPOST" RecordedValue="formPOST" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="0cce5ade-f6e3-4a62-8059-350fa5c689f9" Version="1.1" Url="https://imgsrv.kuldnebors.ee/dynamic/flickers8/raamatupidaja32080.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.raamatupidaja.ee/uudised/2019/05/20/moodikute-sarav-liider-pohjataht" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="0dea9df9-be19-49ca-82a5-acc6c158390e" Version="1.1" Url="https://aripaee.adocean.pl/files/x/nnc/notsovx/rphobtnmnd/index.html" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.raamatupidaja.ee/uudised/2019/05/20/moodikute-sarav-liider-pohjataht" />
+      </Headers>
+    </Request>
+    <Request Method="POST" Guid="ff30af48-908e-442e-994e-1a7e0087bb7d" Version="1.1" Url="https://marketingapi.aripaev.ee/api/campaign" ThinkTime="8" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.raamatupidaja.ee/uudised/2019/05/20/moodikute-sarav-liider-pohjataht" />
+      </Headers>
+      <StringHttpBody ContentType="application/json" InsertByteOrderMark="False">ewAiAHUAcwBlAHIASQBkACIAOgAiADkAMgAzADEAMABjADAAMQAtADIAMAA1AGQALQA0ADAAZgA3AC0AYQA2ADIAYgAtAGEAMwA2AGYAMAAzAGMAZQA4ADQAZABiACIALAAiAGkAcwBMAG8AZwBnAGUAZABJAG4AIgA6AHQAcgB1AGUALAAiAGkAcwBBAHUAdABoAG8AcgBpAHoAZQBkACIAOgB0AHIAdQBlACwAIgBpAHMATABvAGMAawBlAGQAIgA6AHQAcgB1AGUALAAiAGkAbgBBAHIAdABpAGMAbABlACIAOgB0AHIAdQBlACwAIgBhAHIAdABpAGMAbABlAFUAdQBpAGQAIgA6ACIAYQBiADUAMQBjADAANgBjAC0AOQAwADMANAAtADQAYwA1ADEALQBiADQAOAA3AC0AZQAwAGQAYQA4ADAAMgBkAGUAMAAzAGEAIgB9AA==</StringHttpBody>
+    </Request>
+    <Request Method="POST" Guid="13a20c0e-9f46-46f0-9e37-8a0cac7d320c" Version="1.1" Url="https://www.raamatupidaja.ee/api/logout" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.raamatupidaja.ee/uudised/2019/05/20/moodikute-sarav-liider-pohjataht" />
+      </Headers>
+      <StringHttpBody ContentType="application/json" InsertByteOrderMark="False">
+      </StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="d3d20a01-8f91-48ab-b01d-4680b7d0029e" Version="1.1" Url="https://login.aripaev.ee/Account/Logout" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://login.aripaev.ee/global-logout?continueUrl=https%3A%2F%2Fwww.raamatupidaja.ee%2Fuudised%2F2019%2F05%2F20%2Fmoodikute-sarav-liider-pohjataht" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="returnUrl" Value="https%3A%2F%2Fwww.raamatupidaja.ee%2Fuudised%2F2019%2F05%2F20%2Fmoodikute-sarav-liider-pohjataht" RecordedValue="https%3A%2F%2Fwww.raamatupidaja.ee%2Fuudised%2F2019%2F05%2F20%2Fmoodikute-sarav-liider-pohjataht" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="1552eb36-2f11-48f9-ac7c-410daf493d15" Version="1.1" Url="https://pood.aripaev.ee/Sso/GlobalLogout" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="Referer" Value="https://login.aripaev.ee/global-logout?continueUrl=https%3A%2F%2Fwww.raamatupidaja.ee%2Fuudised%2F2019%2F05%2F20%2Fmoodikute-sarav-liider-pohjataht" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="_" Value="1558612975118" RecordedValue="1558612975118" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="b12c6afc-1867-4aa8-9f1c-10000e6758ae" Version="1.1" Url="https://infopank.ee/Sso/GlobalLogout" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="Referer" Value="https://login.aripaev.ee/global-logout?continueUrl=https%3A%2F%2Fwww.raamatupidaja.ee%2Fuudised%2F2019%2F05%2F20%2Fmoodikute-sarav-liider-pohjataht" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="_" Value="1558612975119" RecordedValue="1558612975119" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="929d96ba-0950-496f-903c-88eeec7e92ff" Version="1.1" Url="https://www.raamatupidaja.ee/uudised/2019/05/20/moodikute-sarav-liider-pohjataht" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="OPTIONS" Guid="557352c5-41ae-491b-b452-2b28b78e9bd1" Version="1.1" Url="https://listapi.aripaev.ee/v1/category" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="limit" Value="15" RecordedValue="15" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="de48b63e-9ce7-4ad3-aa24-39ebeb546d3d" Version="1.1" Url="https://listapi.aripaev.ee/v1/category" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="limit" Value="15" RecordedValue="15" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="e6661bb7-8d44-40bc-8ec1-99e60faef3ba" Version="1.1" Url="https://listapi.aripaev.ee/v1/category/seminar" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="limit" Value="15" RecordedValue="15" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="b681535b-7a2c-469c-95c1-f08239b6335d" Version="1.1" Url="https://listapi.aripaev.ee/v1/tag/project/tarkvara" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="limit" Value="6" RecordedValue="6" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="a0ad161c-0ba3-44a2-8243-415ebf25cf3e" Version="1.1" Url="https://listapi.aripaev.ee/v1/category/jobs" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="limit" Value="15" RecordedValue="15" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="5c602e25-2857-4eb6-bf06-0d3c5b97d94e" Version="1.1" Url="https://listapi.aripaev.ee/v1/category/magazine" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="limit" Value="15" RecordedValue="15" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="059100fc-d3b5-47ff-a5e4-dc285a525168" Version="1.1" Url="https://listapi.aripaev.ee/v1/category" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="limit" Value="15" RecordedValue="15" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="c1164db5-754a-4d01-80ef-87f2e7fa9de2" Version="1.1" Url="https://eventsapi.aripaev.ee/v1/events" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="type" Value="event" RecordedValue="event" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="past_events" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="limit" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="f2147396-429c-4ee4-b0e7-cb4e9042f67c" Version="1.1" Url="https://listapi.aripaev.ee/v1/category/cm" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="limit" Value="15" RecordedValue="15" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="3a8e149b-2f03-4932-90af-6959f79ddc02" Version="1.1" Url="https://listapi.aripaev.ee/v1/most-viewed" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="period" Value="1_week" RecordedValue="1_week" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="e3c60a22-b319-433b-921a-bceff72e9161" Version="1.1" Url="https://listapi.aripaev.ee/v1/sections" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="limit" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="4389d039-b043-4c69-a563-b202f15b8ee4" Version="1.1" Url="https://connect.facebook.net/signals/config/444381375738055" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.raamatupidaja.ee/uudised/2019/05/20/moodikute-sarav-liider-pohjataht" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="v" Value="2.8.50" RecordedValue="2.8.50" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="r" Value="stable" RecordedValue="stable" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="https://login.aripaev.ee/global-logout?continueUrl=https%3A%2F%2Fwww.raamatupidaja.ee%2Fuudised%2F2019%2F05%2F20%2Fmoodikute-sarav-liider-pohjataht" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="7858b369-f6dc-4c63-aaf5-5b0d4e7ccd99" Version="1.1" Url="https://imgsrv.kuldnebors.ee/dynamic/flickers8/raamatupidaja32080.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.raamatupidaja.ee/uudised/2019/05/20/moodikute-sarav-liider-pohjataht" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="6944dcf1-2255-4164-8923-3ee3d0a73e77" Version="1.1" Url="https://aripaee.adocean.pl/files/x/nnc/notsovx/rphobtnmnd/index.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.raamatupidaja.ee/uudised/2019/05/20/moodikute-sarav-liider-pohjataht" />
+      </Headers>
+    </Request>
+    <Request Method="POST" Guid="bca2c0ee-26d2-42f7-8dac-3953ea1bff05" Version="1.1" Url="https://marketingapi.aripaev.ee/api/campaign" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.raamatupidaja.ee/uudised/2019/05/20/moodikute-sarav-liider-pohjataht" />
+      </Headers>
+      <StringHttpBody ContentType="application/json" InsertByteOrderMark="False">ewAiAHUAcwBlAHIASQBkACIAOgAiAEUAbwBKAGYAUgBuAEgAcQBPAFUAawBZACsAMwBnAFEAbQBIAGoAWQBRAGoAMAAwAGEASwBjAD0AIgAsACIAaQBzAEwAbwBnAGcAZQBkAEkAbgAiADoAZgBhAGwAcwBlACwAIgBpAHMAQQB1AHQAaABvAHIAaQB6AGUAZAAiADoAZgBhAGwAcwBlACwAIgBpAHMATABvAGMAawBlAGQAIgA6AHQAcgB1AGUALAAiAGkAbgBBAHIAdABpAGMAbABlACIAOgB0AHIAdQBlACwAIgBhAHIAdABpAGMAbABlAFUAdQBpAGQAIgA6ACIAYQBiADUAMQBjADAANgBjAC0AOQAwADMANAAtADQAYwA1ADEALQBiADQAOAA3AC0AZQAwAGQAYQA4ADAAMgBkAGUAMAAzAGEAIgB9AA==</StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="28021e51-f753-4928-a59e-aaf38c076bca" Version="1.1" Url="https://www.imelineajalugu.ee/uudised/2019/05/10/kui-eesti-vaed-pihkvas-kaisid" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="OPTIONS" Guid="998571ca-5177-4cf3-b495-de62b400ce8e" Version="1.1" Url="https://listapi.aripaev.ee/v1/category/news" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="limit" Value="11" RecordedValue="11" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="96ef3af4-4fe3-4dbc-a04f-7ba94dc1b4d0" Version="1.1" Url="https://connect.facebook.net/signals/config/444381375738055" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.imelineajalugu.ee/uudised/2019/05/10/kui-eesti-vaed-pihkvas-kaisid" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="v" Value="2.8.50" RecordedValue="2.8.50" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="r" Value="stable" RecordedValue="stable" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <ValidationRules>
+        <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
+          <RuleParameters>
+            <RuleParameter Name="FindText" Value="Soomusrongide divisjoni väeosad asusid kaares" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="PassIfTextFound" Value="True" />
+          </RuleParameters>
+        </ValidationRule>
+      </ValidationRules>
+    </Request>
+    <Request Method="POST" Guid="899345a6-eccb-4474-87fd-a8c5e252bd75" Version="1.1" Url="https://marketingapi.aripaev.ee/api/campaign" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.imelineajalugu.ee/uudised/2019/05/10/kui-eesti-vaed-pihkvas-kaisid" />
+      </Headers>
+      <StringHttpBody ContentType="application/json" InsertByteOrderMark="False">ewAiAHUAcwBlAHIASQBkACIAOgAiAEIAOAAzAFIASgBGAHgANwBGADMAegBuAGwAOQBsAEIATQA5AGEAVABvAGUAUAB5AG4ASwBFAD0AIgAsACIAaQBzAEwAbwBnAGcAZQBkAEkAbgAiADoAZgBhAGwAcwBlACwAIgBpAHMAQQB1AHQAaABvAHIAaQB6AGUAZAAiADoAdAByAHUAZQAsACIAaQBzAEwAbwBjAGsAZQBkACIAOgBmAGEAbABzAGUALAAiAGkAbgBBAHIAdABpAGMAbABlACIAOgB0AHIAdQBlACwAIgBhAHIAdABpAGMAbABlAFUAdQBpAGQAIgA6ACIAYwA3AGQAOABlADcAYgA5AC0AZgAyADgAMwAtADQAMgBhADgALQBhADQAOABkAC0AZQBhADQAZABhADUAMwAzADEAYwA1ADcAIgB9AA==</StringHttpBody>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>

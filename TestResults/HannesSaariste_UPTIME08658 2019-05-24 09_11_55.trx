@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="57b5bce1-dfa9-4c8a-857d-1faccefcb0f0" name="HannesSaariste@UPTIME08658 2019-05-24 09:11:55" runUser="AzureAD\HannesSaariste" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="82f58698-f45c-4a91-a385-93496e26ddf6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment runDeploymentRoot="HannesSaariste_UPTIME08658 2019-05-24 09_11_55">
+      <DeploymentItem filename="C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll" />
+    </Deployment>
+    <Execution hostProcessPlatform="MSIL">
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Properties>
+      <Property name="TestSettingsUIType" value="UnitTest" />
+    </Properties>
+  </TestSettings>
+  <Times creation="2019-05-24T09:11:55.2879827+03:00" queuing="2019-05-24T09:11:56.3908908+03:00" start="2019-05-24T09:11:56.4457437+03:00" finish="2019-05-24T09:12:33.0554098+03:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="UPTIME08658" outcome="Error" timestamp="2019-05-24T09:12:33.0544124+03:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <CodedWebTest name="AripaevTeemaveebide_ArtikliteVanuseTest" storage="c:\users\hannessaariste\source\repos\ap_article_web_test\ap_article_web_test\bin\debug\ap_article_web_test.dll" id="89672b2d-938f-bee8-5e0a-bda5f3206e93">
+      <Execution id="2abb7f2e-3564-44c9-b7b2-b25ee58028f7" />
+      <Properties>
+        <Property>
+          <Key>__Internal_IteratorTypeName__</Key>
+          <Value>AP_Article_Web_Test.AripaevTeemaveebide_ArtikliteVanuseTest+&lt;GetRequestEnumerator&gt;d__1</Value>
+        </Property>
+      </Properties>
+      <WebTestClass assembly="AP_Article_Web_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="AP_Article_Web_Test" class="AripaevTeemaveebide_ArtikliteVanuseTest" />
+    </CodedWebTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry isTransparent="false" testId="89672b2d-938f-bee8-5e0a-bda5f3206e93" executionId="2abb7f2e-3564-44c9-b7b2-b25ee58028f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <WebTestResult executionId="2abb7f2e-3564-44c9-b7b2-b25ee58028f7" testId="89672b2d-938f-bee8-5e0a-bda5f3206e93" testName="AripaevTeemaveebide_ArtikliteVanuseTest" computerName="UPTIME08658" duration="00:00:36.4550794" startTime="2019-05-24T09:11:56.6003304+03:00" endTime="2019-05-24T09:12:33.0554098+03:00" testType="37e36796-fb51-4610-8d5c-e00ceaa68b9f" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2abb7f2e-3564-44c9-b7b2-b25ee58028f7">
+      <TestSettings name="Local" id="82f58698-f45c-4a91-a385-93496e26ddf6">
+        <Description>These are default test settings for a local test run.</Description>
+        <Deployment runDeploymentRoot="HannesSaariste_UPTIME08658 2019-05-24 09_11_55">
+          <DeploymentItem filename="C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll" />
+        </Deployment>
+        <Execution hostProcessPlatform="MSIL">
+          <TestTypeSpecific>
+            <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+              <Browser name="Internet Explorer 9.0" MaxConnections="6">
+                <Headers>
+                  <Header name="User-Agent" value="Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)" />
+                  <Header name="Accept" value="*/*" />
+                  <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+                  <Header name="Accept-Encoding" value="GZIP" />
+                </Headers>
+              </Browser>
+            </WebTestRunConfiguration>
+          </TestTypeSpecific>
+          <AgentRule name="Execution Agents">
+          </AgentRule>
+        </Execution>
+        <Properties>
+          <Property name="TestSettingsUIType" value="UnitTest" />
+        </Properties>
+      </TestSettings>
+      <WebTestResultFilePath>
+      </WebTestResultFilePath>
+    </WebTestResult>
+  </Results>
+</TestRun>

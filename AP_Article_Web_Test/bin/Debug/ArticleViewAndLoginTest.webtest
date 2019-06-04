@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="ArticleViewAndLoginTest" Id="55a3fefd-1d98-48a9-9878-c7cc1e7bdafd" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="ArticleViewAndLoginTest.a27a2524-686b-4e0a-ad16-56569c1c77ca.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="5bb0f0f7-2d4c-4ef6-aab6-9b61c7fb7993" Version="1.1" Url="https://www.aripaev.ee/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <ValidationRules>
+        <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
+          <RuleParameters>
+            <RuleParameter Name="FindText" Value="Enimloetud" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="PassIfTextFound" Value="True" />
+          </RuleParameters>
+        </ValidationRule>
+      </ValidationRules>
+    </Request>
+    <Request Method="GET" Guid="9ff81b62-b462-48be-9d0a-4e3bf903d79f" Version="1.1" Url="https://www.aripaev.ee/borsiuudised/2019/05/13/hiina-vastutollid-surusid-usa-borsi-polvili" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <ValidationRules>
+        <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
+          <RuleParameters>
+            <RuleParameter Name="FindText" Value="Äripäeva tellijal on ligipääs:" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="PassIfTextFound" Value="True" />
+          </RuleParameters>
+        </ValidationRule>
+      </ValidationRules>
+    </Request>
+    <Request Method="GET" Guid="c9cd4e56-5c75-4cc0-8e4b-b1e3711e10aa" Version="1.1" Url="https://login.aripaev.ee/OAuth/Authorize" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://login.aripaev.ee/Account/Login?ReturnUrl=%2fOAuth%2fAuthorize%3fclient_id%3daripaev%26response_type%3dcode%26scope%3d%252FUserDataService%252Fjson%252FProfile%2520%252FUserDataService%252Fjson%252FPermissions%2520%252FUserDataService%252Fjson%252FOrders%26redirect_uri%3dhttps%253A%252F%252Faccessapi.aripaev.ee%252Fv2%252Flogin%252Faripaev%253Fredirect_uri%253Dhttps%25253A%25252F%25252Fwww.aripaev.ee%25252Fborsiuudised%25252F2019%25252F05%25252F13%25252Fhiina-vastutollid-surusid-usa-borsi-polvili&amp;client_id=aripaev&amp;response_type=code&amp;scope=%2FUserDataService%2Fjson%2FProfile%20%2FUserDataService%2Fjson%2FPermissions%20%2FUserDataService%2Fjson%2FOrders&amp;redirect_uri=https%3A%2F%2Faccessapi.aripaev.ee%2Fv2%2Flogin%2Faripaev%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.aripaev.ee%252Fborsiuudised%252F2019%252F05%252F13%252Fhiina-vastutollid-surusid-usa-borsi-polvili" ReportingName="" IgnoreHttpStatusCode="False">
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam1.RememberMe" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="RememberMe" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+            <RuleParameter Name="Index" Value="0" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam2.RememberMe" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="RememberMe" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+            <RuleParameter Name="Index" Value="0" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="client_id" Value="aripaev" RecordedValue="aripaev" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="response_type" Value="code" RecordedValue="code" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="scope" Value="%2FUserDataService%2Fjson%2FProfile%20%2FUserDataService%2Fjson%2FPermissions%20%2FUserDataService%2Fjson%2FOrders" RecordedValue="%2FUserDataService%2Fjson%2FProfile%20%2FUserDataService%2Fjson%2FPermissions%20%2FUserDataService%2Fjson%2FOrders" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="redirect_uri" Value="https%3A%2F%2Faccessapi.aripaev.ee%2Fv2%2Flogin%2Faripaev%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.aripaev.ee%252Fborsiuudised%252F2019%252F05%252F13%252Fhiina-vastutollid-surusid-usa-borsi-polvili" RecordedValue="https%3A%2F%2Faccessapi.aripaev.ee%2Fv2%2Flogin%2Faripaev%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.aripaev.ee%252Fborsiuudised%252F2019%252F05%252F13%252Fhiina-vastutollid-surusid-usa-borsi-polvili" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="61ef5e1b-a904-471e-a431-22176189fe66" Version="1.1" Url="https://login.aripaev.ee/Account/Login" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://login.aripaev.ee/global-login?continueUrl=%2FOAuth%2FAuthorize%3Fclient_id%3Daripaev%26response_type%3Dcode%26scope%3D%252FUserDataService%252Fjson%252FProfile%2520%252FUserDataService%252Fjson%252FPermissions%2520%252FUserDataService%252Fjson%252FOrders%26redirect_uri%3Dhttps%253A%252F%252Faccessapi.aripaev.ee%252Fv2%252Flogin%252Faripaev%253Fredirect_uri%253Dhttps%25253A%25252F%25252Fwww.aripaev.ee%25252Fborsiuudised%25252F2019%25252F05%25252F13%25252Fhiina-vastutollid-surusid-usa-borsi-polvili" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://login.aripaev.ee/Account/Login?ReturnUrl=%2fOAuth%2fAuthorize%3fclient_id%3daripaev%26response_type%3dcode%26scope%3d%252FUserDataService%252Fjson%252FProfile%2520%252FUserDataService%252Fjson%252FPermissions%2520%252FUserDataService%252Fjson%252FOrders%26redirect_uri%3dhttps%253A%252F%252Faccessapi.aripaev.ee%252Fv2%252Flogin%252Faripaev%253Fredirect_uri%253Dhttps%25253A%25252F%25252Fwww.aripaev.ee%25252Fborsiuudised%25252F2019%25252F05%25252F13%25252Fhiina-vastutollid-surusid-usa-borsi-polvili&amp;client_id=aripaev&amp;response_type=code&amp;scope=%2FUserDataService%2Fjson%2FProfile%20%2FUserDataService%2Fjson%2FPermissions%20%2FUserDataService%2Fjson%2FOrders&amp;redirect_uri=https%3A%2F%2Faccessapi.aripaev.ee%2Fv2%2Flogin%2Faripaev%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.aripaev.ee%252Fborsiuudised%252F2019%252F05%252F13%252Fhiina-vastutollid-surusid-usa-borsi-polvili" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam641.ssoId" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?ssoId=" />
+            <RuleParameter Name="EndsWith" Value="\" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam642.role" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="\u0026role=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam658.ssoId" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?ssoId=" />
+            <RuleParameter Name="EndsWith" Value="\" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam659.role" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="\u0026role=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam675.client_id" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?client_id=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam676.response_type" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;response_type=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam677.scope" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;scope=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam678.redirect_uri" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;redirect_uri=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="ReturnUrl" Value="%2fOAuth%2fAuthorize%3fclient_id%3daripaev%26response_type%3dcode%26scope%3d%252FUserDataService%252Fjson%252FProfile%2520%252FUserDataService%252Fjson%252FPermissions%2520%252FUserDataService%252Fjson%252FOrders%26redirect_uri%3dhttps%253A%252F%252Faccessapi.aripaev.ee%252Fv2%252Flogin%252Faripaev%253Fredirect_uri%253Dhttps%25253A%25252F%25252Fwww.aripaev.ee%25252Fborsiuudised%25252F2019%25252F05%25252F13%25252Fhiina-vastutollid-surusid-usa-borsi-polvili" RecordedValue="%2fOAuth%2fAuthorize%3fclient_id%3daripaev%26response_type%3dcode%26scope%3d%252FUserDataService%252Fjson%252FProfile%2520%252FUserDataService%252Fjson%252FPermissions%2520%252FUserDataService%252Fjson%252FOrders%26redirect_uri%3dhttps%253A%252F%252Faccessapi.aripaev.ee%252Fv2%252Flogin%252Faripaev%253Fredirect_uri%253Dhttps%25253A%25252F%25252Fwww.aripaev.ee%25252Fborsiuudised%25252F2019%25252F05%25252F13%25252Fhiina-vastutollid-surusid-usa-borsi-polvili" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="client_id" Value="aripaev" RecordedValue="aripaev" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="response_type" Value="code" RecordedValue="code" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="scope" Value="%2FUserDataService%2Fjson%2FProfile%20%2FUserDataService%2Fjson%2FPermissions%20%2FUserDataService%2Fjson%2FOrders" RecordedValue="%2FUserDataService%2Fjson%2FProfile%20%2FUserDataService%2Fjson%2FPermissions%20%2FUserDataService%2Fjson%2FOrders" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="redirect_uri" Value="https%3A%2F%2Faccessapi.aripaev.ee%2Fv2%2Flogin%2Faripaev%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.aripaev.ee%252Fborsiuudised%252F2019%252F05%252F13%252Fhiina-vastutollid-surusid-usa-borsi-polvili" RecordedValue="https%3A%2F%2Faccessapi.aripaev.ee%2Fv2%2Flogin%2Faripaev%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.aripaev.ee%252Fborsiuudised%252F2019%252F05%252F13%252Fhiina-vastutollid-surusid-usa-borsi-polvili" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody>
+        <FormPostParameter Name="Email" Value="aratyhista@aripaev.ee" RecordedValue="aratyhista@aripaev.ee" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="password" Value="4utom44ttest" RecordedValue="j22karu" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="RememberMe" Value="true" RecordedValue="true" CorrelationBinding="{{FormPostParam2.RememberMe}}" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="d9d5e50f-961e-4407-ae74-a7484c52b9f9" Version="1.1" Url="https://pood.aripaev.ee/Sso/GlobalLogin" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="Referer" Value="https://login.aripaev.ee/global-login?continueUrl=%2FOAuth%2FAuthorize%3Fclient_id%3Daripaev%26response_type%3Dcode%26scope%3D%252FUserDataService%252Fjson%252FProfile%2520%252FUserDataService%252Fjson%252FPermissions%2520%252FUserDataService%252Fjson%252FOrders%26redirect_uri%3Dhttps%253A%252F%252Faccessapi.aripaev.ee%252Fv2%252Flogin%252Faripaev%253Fredirect_uri%253Dhttps%25253A%25252F%25252Fwww.aripaev.ee%25252Fborsiuudised%25252F2019%25252F05%25252F13%25252Fhiina-vastutollid-surusid-usa-borsi-polvili" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="ssoId" Value="92310c01-205d-40f7-a62b-a36f03ce84db" RecordedValue="92310c01-205d-40f7-a62b-a36f03ce84db" CorrelationBinding="{{QueryStringParam641.ssoId}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="role" Value="god" RecordedValue="god" CorrelationBinding="{{QueryStringParam642.role}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1557905972525" RecordedValue="1557905972525" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="7f4e8785-df3a-4ba9-aa6b-70f27af10fed" Version="1.1" Url="https://infopank.ee/Sso/GlobalLogin" ThinkTime="3" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="Referer" Value="https://login.aripaev.ee/global-login?continueUrl=%2FOAuth%2FAuthorize%3Fclient_id%3Daripaev%26response_type%3Dcode%26scope%3D%252FUserDataService%252Fjson%252FProfile%2520%252FUserDataService%252Fjson%252FPermissions%2520%252FUserDataService%252Fjson%252FOrders%26redirect_uri%3Dhttps%253A%252F%252Faccessapi.aripaev.ee%252Fv2%252Flogin%252Faripaev%253Fredirect_uri%253Dhttps%25253A%25252F%25252Fwww.aripaev.ee%25252Fborsiuudised%25252F2019%25252F05%25252F13%25252Fhiina-vastutollid-surusid-usa-borsi-polvili" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="ssoId" Value="92310c01-205d-40f7-a62b-a36f03ce84db" RecordedValue="92310c01-205d-40f7-a62b-a36f03ce84db" CorrelationBinding="{{QueryStringParam658.ssoId}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="role" Value="god" RecordedValue="god" CorrelationBinding="{{QueryStringParam659.role}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1557905972526" RecordedValue="1557905972526" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="bbf00a91-7408-4916-bbbc-5e4fd95ff292" Version="1.1" Url="https://login.aripaev.ee/OAuth/Authorize" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://www.aripaev.ee/borsiuudised/2019/05/13/hiina-vastutollid-surusid-usa-borsi-polvili" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="OPTIONS" Guid="c594d05f-3532-4551-8865-d96b62fcda6d" Version="1.1" Url="https://listapi.aripaev.ee/v1/most-viewed" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="period" Value="1_day" RecordedValue="1_day" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="20d49156-7d88-462e-acac-478db65335e4" Version="1.1" Url="https://listapi.aripaev.ee/v1/tag/bors" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="exclude_uuids" Value="00d04139-cb32-4973-8ee4-17e8811043bc" RecordedValue="00d04139-cb32-4973-8ee4-17e8811043bc" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="limit" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="a16c3c66-a58a-42ad-9355-da4e01fafdf3" Version="1.1" Url="https://listapi.aripaev.ee/v1/lists/specialedition" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="list_limit" Value="6" RecordedValue="6" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="limit" Value="100" RecordedValue="100" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="0f0c4476-0c98-4853-be26-80509d0710d4" Version="1.1" Url="https://listapi.aripaev.ee/v1/most-viewed" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="period" Value="1_day" RecordedValue="1_day" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="da745ff7-1e58-4983-825c-dd64f2211539" Version="1.1" Url="https://listapi.aripaev.ee/v1/category" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="limit" Value="8" RecordedValue="8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="exclude_uuids" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="bb8309aa-eb6d-4085-8dbd-8ad4b5e06a54" Version="1.1" Url="https://listapi.aripaev.ee/v1/most-viewed" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="period" Value="1_day" RecordedValue="1_day" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="f4e20192-1c1f-4b6f-bcf9-bdf01e9d4342" Version="1.1" Url="https://connect.facebook.net/signals/config/444381375738055" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.aripaev.ee/borsiuudised/2019/05/13/hiina-vastutollid-surusid-usa-borsi-polvili" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="v" Value="2.8.47" RecordedValue="2.8.47" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="r" Value="stable" RecordedValue="stable" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="e7d8b17b-782a-430f-b820-0c965b7f9f2d" Version="1.1" Url="https://bonnieraws.dergan.net/event" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="group" Value="AREE" RecordedValue="AREE" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="51c85b8d-ea7d-491b-ba78-0e9e95a7e3d1" Version="1.1" Url="https://bonnieraws.dergan.net/freq" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="group" Value="AREE" RecordedValue="AREE" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="https://login.aripaev.ee/global-login?continueUrl=%2FOAuth%2FAuthorize%3Fclient_id%3Daripaev%26response_type%3Dcode%26scope%3D%252FUserDataService%252Fjson%252FProfile%2520%252FUserDataService%252Fjson%252FPermissions%2520%252FUserDataService%252Fjson%252FOrders%26redirect_uri%3Dhttps%253A%252F%252Faccessapi.aripaev.ee%252Fv2%252Flogin%252Faripaev%253Fredirect_uri%253Dhttps%25253A%25252F%25252Fwww.aripaev.ee%25252Fborsiuudised%25252F2019%25252F05%25252F13%25252Fhiina-vastutollid-surusid-usa-borsi-polvili" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam3.dl" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ent=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;/&gt;&lt;m" />
+            <RuleParameter Name="Index" Value="7" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam4.if" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ent=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; hre" />
+            <RuleParameter Name="Index" Value="20" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam5.coo" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ent=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; hre" />
+            <RuleParameter Name="Index" Value="20" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam7.dl" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ent=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;/&gt;&lt;m" />
+            <RuleParameter Name="Index" Value="7" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam8.if" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ent=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; hre" />
+            <RuleParameter Name="Index" Value="20" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam9.coo" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ent=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; hre" />
+            <RuleParameter Name="Index" Value="20" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="client_id" Value="aripaev" RecordedValue="aripaev" CorrelationBinding="{{QueryStringParam675.client_id}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="response_type" Value="code" RecordedValue="code" CorrelationBinding="{{QueryStringParam676.response_type}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="scope" Value="%2FUserDataService%2Fjson%2FProfile%20%2FUserDataService%2Fjson%2FPermissions%20%2FUserDataService%2Fjson%2FOrders" RecordedValue="%2FUserDataService%2Fjson%2FProfile%20%2FUserDataService%2Fjson%2FPermissions%20%2FUserDataService%2Fjson%2FOrders" CorrelationBinding="{{QueryStringParam677.scope}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="redirect_uri" Value="https%3A%2F%2Faccessapi.aripaev.ee%2Fv2%2Flogin%2Faripaev%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.aripaev.ee%252Fborsiuudised%252F2019%252F05%252F13%252Fhiina-vastutollid-surusid-usa-borsi-polvili" RecordedValue="https%3A%2F%2Faccessapi.aripaev.ee%2Fv2%2Flogin%2Faripaev%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.aripaev.ee%252Fborsiuudised%252F2019%252F05%252F13%252Fhiina-vastutollid-surusid-usa-borsi-polvili" CorrelationBinding="{{QueryStringParam678.redirect_uri}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="59e30d89-cec6-4384-8454-ff9eee31c938" Version="1.1" Url="https://www.aripaev.ee/borsiuudised/2019/05/13/hiina-vastutollid-surusid-usa-borsi-polvili" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://login.aripaev.ee/global-logout?continueUrl=https%3A%2F%2Fwww.aripaev.ee%2Fborsiuudised%2F2019%2F05%2F13%2Fhiina-vastutollid-surusid-usa-borsi-polvili" />
+      </Headers>
+      <ValidationRules>
+        <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
+          <RuleParameters>
+            <RuleParameter Name="FindText" Value="25protsendine" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="PassIfTextFound" Value="True" />
+          </RuleParameters>
+        </ValidationRule>
+      </ValidationRules>
+    </Request>
+    <Request Method="GET" Guid="c14e3a35-5376-498d-87c9-814dad61f2d5" Version="1.1" Url="https://login.aripaev.ee/Account/Logout" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://login.aripaev.ee/global-logout?continueUrl=https%3A%2F%2Fwww.aripaev.ee%2Fborsiuudised%2F2019%2F05%2F13%2Fhiina-vastutollid-surusid-usa-borsi-polvili" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="returnUrl" Value="https%3A%2F%2Fwww.aripaev.ee%2Fborsiuudised%2F2019%2F05%2F13%2Fhiina-vastutollid-surusid-usa-borsi-polvili" RecordedValue="https%3A%2F%2Fwww.aripaev.ee%2Fborsiuudised%2F2019%2F05%2F13%2Fhiina-vastutollid-surusid-usa-borsi-polvili" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="ce67ee7b-9836-4cba-9f73-285d6323fd78" Version="1.1" Url="https://www.aripaev.ee/api/logout" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.aripaev.ee/borsiuudised/2019/05/13/hiina-vastutollid-surusid-usa-borsi-polvili" />
+      </Headers>
+      <StringHttpBody ContentType="application/json" InsertByteOrderMark="False">
+      </StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="097721ef-b013-477c-8c41-9598a18b5b69" Version="1.1" Url="https://pood.aripaev.ee/Sso/GlobalLogout" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="Referer" Value="https://login.aripaev.ee/global-logout?continueUrl=https%3A%2F%2Fwww.aripaev.ee%2Fborsiuudised%2F2019%2F05%2F13%2Fhiina-vastutollid-surusid-usa-borsi-polvili" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="_" Value="1557905985295" RecordedValue="1557905985295" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="5e26b6b5-f5c2-497c-b92b-918eb40768f3" Version="1.1" Url="https://infopank.ee/Sso/GlobalLogout" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="Referer" Value="https://login.aripaev.ee/global-logout?continueUrl=https%3A%2F%2Fwww.aripaev.ee%2Fborsiuudised%2F2019%2F05%2F13%2Fhiina-vastutollid-surusid-usa-borsi-polvili" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="_" Value="1557905985296" RecordedValue="1557905985296" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>
