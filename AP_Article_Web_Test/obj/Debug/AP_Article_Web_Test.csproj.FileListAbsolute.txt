@@ -18,3 +18,17 @@ C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\AP_Article_Web_Test\obj
 C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\AP_Article_Web_Test\obj\Debug\AP_Article_Web_Test.csproj.CopyComplete
 C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\AP_Article_Web_Test\obj\Debug\AP_Article_Web_Test.dll
 C:\Users\HannesSaariste\source\repos\AP_Article_Web_Test\AP_Article_Web_Test\obj\Debug\AP_Article_Web_Test.pdb
+C:\Users\HannesSaariste\Desktop\APWebtestid\AripaevWebtestid\AP_Article_Web_Test\bin\Debug\AAArticleViewAndLoginTest Wpopulaarsedtest.webtest
+C:\Users\HannesSaariste\Desktop\APWebtestid\AripaevWebtestid\AP_Article_Web_Test\bin\Debug\AP_Article_Web_Test.dll
+C:\Users\HannesSaariste\Desktop\APWebtestid\AripaevWebtestid\AP_Article_Web_Test\bin\Debug\AP_Article_Web_Test.pdb
+C:\Users\HannesSaariste\Desktop\APWebtestid\AripaevWebtestid\AP_Article_Web_Test\bin\Debug\Microsoft.VisualStudio.QualityTools.WebTestFramework.dll
+C:\Users\HannesSaariste\Desktop\APWebtestid\AripaevWebtestid\AP_Article_Web_Test\bin\Debug\Newtonsoft.Json.dll
+C:\Users\HannesSaariste\Desktop\APWebtestid\AripaevWebtestid\AP_Article_Web_Test\bin\Debug\Newtonsoft.Json.xml
+C:\Users\HannesSaariste\Desktop\APWebtestid\AripaevWebtestid\AP_Article_Web_Test\obj\Debug\AP_Article_Web_Test.csprojAssemblyReference.cache
+C:\Users\HannesSaariste\Desktop\APWebtestid\AripaevWebtestid\AP_Article_Web_Test\obj\Debug\AP_Article_Web_Test.csproj.CoreCompileInputs.cache
+C:\Users\HannesSaariste\Desktop\APWebtestid\AripaevWebtestid\AP_Article_Web_Test\obj\Debug\AP_Article_Web_Test.csproj.CopyComplete
+C:\Users\HannesSaariste\Desktop\APWebtestid\AripaevWebtestid\AP_Article_Web_Test\obj\Debug\AP_Article_Web_Test.dll
+C:\Users\HannesSaariste\Desktop\APWebtestid\AripaevWebtestid\AP_Article_Web_Test\obj\Debug\AP_Article_Web_Test.pdb
+C:\Users\HannesSaariste\Desktop\APWebtestid\AripaevWebtestid\AP_Article_Web_Test\bin\Debug\Äripäev-Teemaveebide_Test.webtest
+C:\Users\HannesSaariste\Desktop\APWebtestid\AripaevWebtestid\AP_Article_Web_Test\bin\Debug\Äripäev-Locked_Article_and_Login_Test.webtest
+C:\Users\HannesSaariste\Desktop\APWebtestid\AripaevWebtestid\AP_Article_Web_Test\bin\Debug\Äripäev-Teemaveebide_Test_Vana.webtest
