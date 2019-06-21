@@ -60,11 +60,14 @@
     <None Include="AAArticleViewAndLoginTest Wpopulaarsedtest.webtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="ArticleViewAndLoginTest.webtest">
+    <None Include="Äripäev-Locked_Article_and_Login_Test.webtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />
-    <None Include="AripaevTeemaveebideTest2.webtest">
+    <None Include="Äripäev-Teemaveebide_Test.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Äripäev-Teemaveebide_Test_Vana.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
